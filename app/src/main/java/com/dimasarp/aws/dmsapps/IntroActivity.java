@@ -4,6 +4,9 @@ package com.dimasarp.aws.dmsapps;
 Tanggal Pengerjaan : 4 Mei 2020
 Deskripsi Pengerjaan : Membuat Splash Screen, Walkthrough 3 view
 
+Tanggal Pengerjaan : 5 Mei 2020
+Deskripsi Pengerjaan : Memperbagus Splash Screen, Walkthrough 3 view
+
 NIM : 10117123
 NAMA : Dimas Arestu Prasmanto
 KELAS : IF4
@@ -68,9 +71,9 @@ public class IntroActivity extends AppCompatActivity {
         // fill list screen
 
         final List<ScreenItem> mList = new ArrayList<>();
-        mList.add(new ScreenItem("Fresh Food","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, consectetur  consectetur adipiscing elit",R.drawable.img1));
-        mList.add(new ScreenItem("Fast Delivery","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, consectetur  consectetur adipiscing elit",R.drawable.img2));
-        mList.add(new ScreenItem("Easy Payment","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, consectetur  consectetur adipiscing elit",R.drawable.img3));
+        mList.add(new ScreenItem("Profile","Tunjukan diri dan minatmu",R.drawable.img1));
+        mList.add(new ScreenItem("Daily Activity","Yuk atur dan lihat jadwal kegiatanmu bersama sahabatu",R.drawable.img2));
+        mList.add(new ScreenItem("Gallery","Mudahnya mengatur dan mengakses foto/fim favoritmu",R.drawable.img3));
 
         // setup viewpager
         screenPager =findViewById(R.id.screen_viewpager);
